@@ -1,0 +1,359 @@
+.Sidebar_head__1Z76C {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 0 22px;
+    overflow: hidden;
+    width: 100%;
+}
+
+@media (min-width: 1441px) {
+    .Sidebar_logo__3TLMd {
+        width: 120px;
+    }
+}
+
+.Sidebar_logo__3TLMd {
+    width: 98px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 1441px) {
+    .Sidebar_logo__3TLMd {
+        width: 120px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Sidebar_wallet__eXx60 {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .Sidebar_logo__3TLMd {
+        display: none;
+    }
+
+    .Sidebar_wallet__eXx60 {
+        display: block;
+    }
+}
+
+.Sidebar_buttonConnect__small {
+    width: 100%;
+    border-radius: 6px;
+    background-color: #805eaa;
+    color: #fff;
+    transition: opacity 0.15s ease-in;
+    padding: 0 20px;
+    min-height: 30px;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: Rubik, sans-serif;
+    letter-spacing: 0.55px;
+    line-height: 9px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.Sidebar_buttonConnect__small:hover {
+    opacity: 0.9;
+    color: #fff;
+}
+
+.Sidebar_items__1Hqtp {
+    list-style: none;
+    margin-top: 40px;
+    padding: 0 17px;
+}
+
+.Sidebar_item__rJc2e:not(:first-child) {
+    margin-top: 12px;
+}
+
+@media (min-width: 1441px) {
+    .Sidebar_link__3B0JM {
+        font-size: 15px;
+        height: 50px;
+    }
+}
+
+.Sidebar_icon__2uqhU {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-right: 13px;
+}
+
+@media (min-width: 1441px) {
+    .Sidebar_icon__2uqhU svg {
+        height: 14px !important;
+    }
+}
+
+.Sidebar_icon__2uqhU svg {
+    height: 11px;
+    max-width: 20px;
+}
+
+.Sidebar_icon__2uqhU svg path {
+    fill: #828384;
+    transition: all 0.15s ease-in;
+}
+
+.Sidebar_link__3B0JM {
+    border-radius: 7.5px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    padding: 0 18px;
+    font-family: Rubik, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #141617;
+    transition: all 0.15s ease-in;
+}
+
+@media (min-width: 1441px) {
+    .Sidebar_link__3B0JM {
+        font-size: 15px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Sidebar_link__3B0JM {
+        padding: 0 17px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Sidebar_items__1Hqtp {
+        margin-top: 10px;
+        padding: 0 15px;
+    }
+}
+
+.Sidebar_link__3B0JM_active {
+    background-image: linear-gradient(
+            to right,
+            rgb(255, 1, 126),
+            rgb(169, 1, 250),
+            rgb(3, 238, 254)
+    );
+    color: #fff;
+}
+
+.Sidebar_link__3B0JM_active .Sidebar_icon__2uqhU svg path {
+    fill: #fff;
+}
+
+.Sidebar_link__3B0JM_active:hover {
+    opacity: 0.85;
+    color: #fff;
+}
+
+a:active,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+.Sidebar_link__3B0JM:hover {
+    opacity: 0.85;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.Sidebar_bottom__3eeR3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    left: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.Sidebar_bottom__3eeR3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Sidebar_bottom__3eeR3 a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 1441px) {
+    .Sidebar_pancake__1_ko8 {
+        max-width: 240px;
+    }
+
+    .pancakse-swap {
+        max-width: 240px;
+    }
+}
+
+@media (min-width: 1441px) {
+    .Sidebar_pancake__1_ko8 {
+        max-width: 240px !important;
+    }
+
+    .pancakse-swap {
+        max-width: 240px !important;
+    }
+}
+
+.Sidebar_pancake__1_ko8 {
+    width: 100%;
+    max-width: 203px;
+    padding: 0 20px;
+}
+
+.Sidebar_media__3EY89 {
+    list-style: none;
+    margin: 18px 0 0;
+    padding: 5px 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 16px);
+    grid-gap: 8px;
+    width: 100%;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+@media (min-width: 1441px) {
+    .Sidebar_media__3EY89 {
+        grid-gap: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Sidebar_media__3EY89 {
+        grid-gap: 10px !important;
+        display: flex;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1441px) {
+    .Sidebar_mediaIcon__2HcGh {
+        height: 20px !important;
+    }
+}
+
+.Sidebar_mediaIcon__2HcGh {
+    height: 16px;
+    fill: #b8b8b8;
+}
+
+.Sidebar_mediaIcon__2HcGh:hover {
+    fill: #007fff;
+}
+
+.pancakse-swap {
+    border-radius: 5px;
+    border: 1px solid rgb(209, 206, 206);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 203px;
+    padding: 7px 14px;
+    cursor: pointer;
+}
+
+.pancakse-swap div:first-child svg {
+    height: 40px;
+}
+
+.pancakse-swap div:first-child svg path {
+    fill: #d1884f;
+}
+
+.tribe-pancake {
+    margin-left: 5px;
+}
+
+.tribe-small-text {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #6b6c6d;
+}
+
+.pancake-small-text {
+    font-weight: 900;
+    line-height: 0.8;
+    font-family: Rubik, sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .pancakse-swap {
+        border-radius: 5px;
+        border: 1px solid rgb(209, 206, 206);
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        max-width: 170px;
+        padding: 4px 7px;
+        cursor: pointer;
+    }
+
+    .pancakse-swap div:first-child svg {
+        height: 40px;
+    }
+
+    .pancakse-swap div:first-child svg path {
+        fill: #d1884f;
+    }
+
+    .pancakse-swap div img {
+        height: 25px;
+    }
+
+    .tribe-pancake {
+        margin-left: 5px;
+    }
+
+    .tribe-small-text {
+        font-size: 7px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        color: #6b6c6d;
+    }
+
+    .pancake-small-text {
+        font-weight: 900;
+        line-height: 0.8;
+        font-family: Rubik, sans-serif;
+        font-size: 17px;
+    }
+}

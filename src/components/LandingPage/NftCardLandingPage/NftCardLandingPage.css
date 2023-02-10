@@ -1,0 +1,118 @@
+.nft-card {
+  border-top-left-radius: 12px !important;
+  border-top-right-radius: 12px !important;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 4.5px 7.8px 45px 0 rgb(34 34 34 / 15%);
+  transition: all 1s cubic-bezier(0.17, 0.67, 0.23, 0.99);
+}
+
+.nft-card a {
+  text-decoration: none !important;
+}
+
+.nft-card a:hover {
+  text-decoration: none !important;
+}
+
+@media (max-width: 992px) {
+  .nft-card {
+    margin-bottom: 30px;
+  }
+}
+
+.nft-card:hover:not(.nft-card-disable) {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  box-shadow: 4.5px 7.8px 45px rgb(0 0 0 / 20%);
+}
+
+.nft-card-1st-div {
+  width: auto;
+  height: 100%;
+  background: #ebebeb no-repeat 50%;
+  transition: all 1s cubic-bezier(0.17, 0.67, 0.23, 0.99);
+  text-align: center;
+}
+
+.nft-card-1st-div img {
+  width: 100%;
+  height: 230px;
+  border-style: none;
+  object-fit: cover;
+}
+
+.card-label-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.status-label-img span:first-child {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+
+.status-label-img span:last-child {
+  text-transform: uppercase;
+}
+
+.label-bg-color-black {
+  background: rgb(79, 80, 81);
+}
+
+.label-bg-color-green {
+  background: rgb(0, 191, 132);
+}
+
+.status-label-img {
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  height: 20px;
+  padding: 0 9px;
+  border-radius: 5px;
+  font-family: Rubik, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  white-space: nowrap;
+  align-items: center;
+  display: flex;
+  width: auto;
+  max-width: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.nft-card-2nd-div {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+}
+
+.second-third-div-background {
+  background-color: #ffffff;
+}
+
+.only-text-nft div:first-child {
+  color: #22282a;
+  font-weight: 800;
+  line-height: 15px;
+}
+
+.only-text-nft span {
+  line-height: 0%;
+  font-size: 13px;
+  color: #838792;
+  font-weight: 700;
+}

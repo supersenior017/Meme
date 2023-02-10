@@ -1,0 +1,161 @@
+/* CARDS */
+.CelebrityCard {
+	display: inline-block;
+	min-width: 30%;
+	height: 328px;
+
+	margin: 13px 0px 13px 0px;
+
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	border-radius: 9px;
+	background-color: white;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+
+	transition: transform 0.2s ease-in;
+}
+
+.CelebrityCard:hover {
+	transform: scale(1.05);
+	transition: transform 0.3s ease-in;
+}
+
+/* Image */
+.CelebrityImage {
+	display: inline-block;
+	width: 100%;
+	height: 244px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	position: relative;
+}
+
+.CelebrityDataContainer {
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 40px;
+}
+
+/* Celebrity Picture */
+.PictureContainer {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	padding: 10px;
+}
+
+.CelebrityPicture {
+	width: 60px;
+	height: 60px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 200px;
+	margin: auto;
+
+	overflow: hidden;
+}
+
+.verify {
+	display: inline-block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 50px;
+	left: 50px;
+	background-image: url();
+	background-position: center;
+	background-size: cover;
+	border-radius: 30px;
+	z-index: 5;
+}
+
+.CelebrityData {
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	position: absolute;
+	flex-direction: column;
+	top: 0px;
+	left: 100px;
+	bottom: 100px;
+	width: 100%;
+	height: 55px;
+}
+
+.CelebrityData h3 {
+	display: inline-block;
+	text-align: left;
+
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	color: #868686;
+}
+
+.CelebrityData h2 {
+	display: inline-block;
+	text-align: left;
+	margin-top: 30px;
+
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/***************/
+/* TABLET MODE */
+/***************/
+
+/* TABLET */
+
+@media only screen and (min-width: 480px) and (max-width: 899px) {
+	.CelebrityCard {
+		width: calc(50% - 26px);
+		margin: 13px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.CelebrityCard {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 13px;
+		margin-top: 13px;
+	}
+}
+
+/********/
+/* 	PC  */
+/********/
+
+/* PC SMALL */
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+	/* CARDS */
+
+	.CelebrityCard {
+		width: calc(50% - 26px);
+		margin: 13px;
+	}
+}
+
+/* PC */
+
+@media only screen and (min-width: 1200px) {
+	/* CARDS */
+
+	.CelebrityCard {
+		width: calc(25% - 26px);
+		margin: 13px;
+	}
+}

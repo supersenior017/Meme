@@ -1,0 +1,67 @@
+{
+	"data": [
+		{
+			"state": "live",
+			"name": "Nombre de Colección",
+			"user": "AiMemes.art",
+			"telegram": "https://t.me/AiMemesArt/",
+			"twitter": "https://twitter.com/AiMemes_art",
+			"instagram": "",
+			"youtube": "",
+			"tiktok": "",
+			"image": "./assets/coming soon/coming-soon.jpg",
+            "banner": "./assets/coming soon/coming-soon.jpg",
+			"nfts": [
+				{
+					"name": "Coming Soon",
+					"colection": "Tier 0 NFT",
+					"image": "./assets/coming soon/nft/coming-soon.jpg",
+					"thumbnail": "undefined",
+					"video": "undefined",
+					"price": "0.2",
+					"address": "0x2",
+					"cutoffDate": "December 20, 2021 00:00:00 UTC",
+					"viewcontract": "https://t.me/AiMemesArt/"
+				},
+				{
+					"name": "Coming Soon",
+					"colection": "Tier 1 NFT",
+					"image": "./assets/coming soon/nft/coming-soon.jpg",
+					"thumbnail": "undefined",
+					"video": "undefined",
+					"price": "0.09",
+					"address": "0x1",
+					"cutoffDate": "December 20, 2021 00:00:00 UTC",
+					"viewcontract": "https://t.me/AiMemesArt/"
+				},
+				{
+					"name": "Coming Soon",
+					"colection": "Tier 2 NFT",
+					"image": "./assets/coming soon/nft/coming-soon.jpg",
+					"thumbnail": "undefined",
+					"video": "undefined",
+					"price": "0.28",
+					"address": "0x2",
+					"cutoffDate": "December 20, 2021 00:00:00 UTC",
+					"viewcontract": "https://t.me/AiMemesArt/"
+				},
+				{
+					"name": "Coming Soon",
+					"colection": "Tier 3 NFT",
+					"image": "./assets/coming soon/nft/coming-soon.jpg",
+					"thumbnail": "undefined",
+					"video": "undefined",
+					"price": "0.45",
+					"address": "0x2",
+					"cutoffDate": "December 20, 2021 00:00:00 UTC",
+					"viewcontract": "https://t.me/AiMemesArt/"
+				}
+            ],
+			"collections":{
+				"logo": "./assets/coming soon/coming-soon.jpg",
+				"description": "AiMemes NFT Collection."
+			}
+			
+		}
+	]
+}

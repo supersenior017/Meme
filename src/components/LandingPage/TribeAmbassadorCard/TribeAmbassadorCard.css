@@ -1,0 +1,42 @@
+.ambassador-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.7rem;
+  border-radius: 10px;
+  box-shadow: 4.5px 7.8px 45px rgb(0 0 0 / 20%);
+}
+
+.amb-img img {
+  width: 280px;
+  height: 180px;
+}
+
+.amb-img img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.amb-name,
+.amb-social-handler {
+  margin-top: 7px;
+}
+
+.amb-social-handler {
+  font-size: 23px;
+}
+
+.amb-social-handler a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s ease-in;
+}
+
+.amb-social-handler a:hover {
+  color: inherit;
+  opacity: 0.75;
+}
+
+.amb-social-handler a:nth-child(2) {
+  margin: 0 0.7rem;
+}

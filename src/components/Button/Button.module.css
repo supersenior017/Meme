@@ -1,0 +1,137 @@
+/* BUTTON */
+
+.CelebrityNftBuy {
+	width: 126px;
+	height: 35px;
+
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+
+	padding: 0px;
+
+	justify-content: center;
+
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 17px;
+
+	border-radius: 4px;
+	color: white;
+	background-color: #ce3d3d;
+	/*background-image: linear-gradient(
+		to right,
+		rgb(255, 1, 126),
+		rgb(169, 1, 250),
+		rgb(3, 238, 254)
+	);*/
+	border: none;
+
+	transition: transform 0.2s ease-in;
+}
+
+.CelebrityNftBuy p {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.CelebrityNftBuy:hover {
+	transform: scale(1.1);
+	background: none;
+	border: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.CelebrityNftBuy p::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 4px;
+	padding: 3px;
+	/*
+	background: linear-gradient(
+	background-color: #ce3d3d;
+	/*background: linear-gradient(
+		to right,
+		rgb(255, 1, 126),
+		rgb(169, 1, 250),
+		rgb(3, 238, 254)
+	);*/
+	-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+	-webkit-mask-composite: destination-out;
+	mask-composite: exclude;
+}
+
+/**********************************************/
+/* CLASS STYLES (CLASES SEGUN ESTILO DE BOTON) */
+
+.Gradient {
+	background: #805eaa;
+}
+
+.Gradient p::before {
+	background: #805eaa;
+}
+
+.Green {
+	background: #00c12c;
+}
+
+.Green p::before {
+	background: #00c12c;
+}
+
+.Grey {
+	color: #868686;
+	background: #c4c4c4;
+	pointer-events: none;
+	font-size: 12px;
+}
+
+.Grey p::before {
+	background: #c4c4c4;
+}
+
+/**********************************************/
+
+/***************/
+/* TABLET MODE */
+/***************/
+
+/* TABLET */
+
+@media only screen and (min-width: 900px) {
+	/* CARD */
+	/* BUY BUTTON */
+	.CelebrityNftBuy {
+		width: 70px;
+		height: 22px;
+	}
+}
+
+/********/
+/* 	PC  */
+/********/
+
+/* PC */
+
+@media only screen and (min-width: 900px) {
+	/* CARD */
+	/* BUY BUTTON */
+	.CelebrityNftBuy {
+		width: 70px;
+		height: 22px;
+	}
+}

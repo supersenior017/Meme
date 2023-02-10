@@ -1,0 +1,170 @@
+.background-container {
+	display: inline-block;
+	width: 100%;
+	height: calc(100vh + 34px);
+
+	position: fixed;
+	z-index: 0;
+}
+
+/********************************************/
+
+.white {
+	height: calc(100vh + 34px);
+	&:before {
+		z-index: 0;
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 60vh;
+		background-image: linear-gradient(
+			-180deg,
+			#ffffff 0%,
+			rgba(255, 255, 255, 0) 100%
+		);
+	}
+	&:after {
+		z-index: 0;
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 20vh;
+		background-image: linear-gradient(
+			0deg,
+			#ebebeb 0%,
+			rgba(235, 235, 235, 0) 100%
+		);
+	}
+}
+
+.squares {
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+}
+.square {
+	animation: squares 9.5s linear infinite;
+	align-self: flex-end;
+	width: 100px;
+	height: 100px;
+	transform: translateY(100%);
+	z-index: 0;
+
+	&:nth-child(1) {
+		background: url(./assets/circle.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	&:nth-child(2) {
+		height: 200px;
+		width: 200px;
+		animation-delay: 1s;
+		animation-duration: 17s;
+
+		background: url(./assets/bean.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	&:nth-child(3) {
+		height: 50px;
+		width: 50px;
+		animation-delay: 1.5s;
+		animation-duration: 8s;
+
+		background: url(./assets/circle.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	&:nth-child(4) {
+		height: 100px;
+		width: 100px;
+		animation-delay: 0.5s;
+		animation-duration: 13s;
+
+		background: url(./assets/bean.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	&:nth-child(5) {
+		height: 100px;
+		width: 100px;
+		animation-delay: 4s;
+		animation-duration: 11s;
+
+		background: url(./assets/circle.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	&:nth-child(6) {
+		height: 300px;
+		width: 300px;
+		animation-delay: 2s;
+		animation-duration: 9s;
+
+		background: url(./assets/bean.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	&:nth-child(7) {
+		height: 200px;
+		width: 200px;
+		animation-duration: 12s;
+
+		background: url(./assets/circle.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	&:nth-child(8) {
+		height: 100px;
+		width: 100px;
+		animation-delay: 5s;
+		animation-duration: 18s;
+
+		background: url(./assets/circle.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	&:nth-child(9) {
+		height: 250px;
+		width: 250px;
+		animation-duration: 9s;
+
+		background: url(./assets/bean.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	&:nth-child(10) {
+		height: 150px;
+		width: 150px;
+		animation-delay: 6s;
+		animation-duration: 12s;
+
+		background: url(./assets/bean.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+
+@keyframes squares {
+	from {
+		transform: translateY(100%) rotate(-50deg);
+	}
+	to {
+		transform: translateY(calc(-100vh + -100%)) rotate(20deg);
+	}
+}

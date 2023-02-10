@@ -1,0 +1,44 @@
+//Import React
+import React from 'react';
+
+//Import Styles
+import styles from './ViewContract.module.css';
+
+// VIEW CONTRACT BUTTON COMPONENT
+// href: URL - STRING - Link que se implementa en el boton
+// style: CSSProperties - En la etiqueta <button> se debe poner en la propiedad Style una variable
+//                          para enviarle CSS desde fuera cuando es llamado en otro componente.
+
+const ViewContract = ({ href }) => {
+	return (
+		<a href={href} className={styles.ButtonView} target="_blank">
+			<span className={styles.Icon_viewContract}>
+				<svg
+					version="1.2"
+					baseProfile="tiny-ps"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 30 40"
+					width="15"
+					height="20"
+				>
+					<title>Capa 1</title>
+					<defs>
+						<image
+							width="30"
+							height="40"
+							id="img1"
+							href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAoCAMAAADezbogAAAAAXNSR0IB2cksfwAAAW5QTFRFAAAAh4eHhoaGhoaGhoaGhoaGhYWFg4ODhoaGhoaGhoaGh4eHhoaGh4eHhYWFhoaGjIyMgICAiIiIqqqqhoaGhYWFhoaGhoaGh4eHhoaGhoaGgICAhoaGhoaGh4eHh4eHhYWFhoaGhoaGiIiIh4eHioqKhoaGhoaGhoaGhoaGhoaGhISEhoaGhoaGtra2oaGhjIyMioqKhoaGhYWFiYmJiIiItbW1qqqqh4eHh4eHv7+/ioqKgICAj4+PlJSUhoaGh4eHiYmJiYmJu7u7kJCQh4eHiYmJpKSk////qKioiIiIiIiIn5+f7u7uh4eHmpqai4uLi4uLioqKh4eHioqKmZmZj4+PiYmJubm5h4eHioqKkZGRiIiIiYmJioqKiIiIiIiIk5OThoaGjY2NpKSkiYmJkpKSj4+PiIiIiIiIhoaGh4eH////hoaGhYWFhoaGi4uLhYWFhoaGhISEhoaGhYWFhoaGhYWFhoaGhoaGSDCMUgAAAHp0Uk5TAGTN5+7vgmf/8L23uJ3P4h8IhQP7scDVkaiYFt+UIIif6NQPcVN63b+Ph4Hk9wceFBizp3/eGAx/3whMEFsf4f9upv//7vf////+7P//vzp9Z+5Enf8w3QufV1GU1Ivp6lfxrw6+YFmP9HKuAq/W7RYZznCn63xv027WbUpLAAABSElEQVR4nLWTZ0/DMBRFHyNw2avMhlD2bJmlAyhlQ9l77733+veYuoncOonKB45k6VlHfu8qsYlSUtMM0hVOBulkIis7J55cIE/X+QWFlEARgOISXjtKEy3TZeWo4DUqTXSVU0W1jSZNRY2ldhE5eX8TTbV19RQ7H9UNLoNGtm1CM6tagFauVRi0/R5v7+AbN9eeToNY/65uRo/bdLZOb3JaiKbTJ2ghmo5X0J5+CV/ys/8ezS/ogH204H9G42hWX40zIEYLyM19QrSgqAeHNJvZoWGER6z1KMbGJ6z15NT0TMRjqWfn5rGwqCyxcnllVdJrWMfGJpQt8kPVJK2Fsb0DBbt72A/JzQ+Aw6PIMU5wemYyO3B+4VUu6er6Ji7abUzfsSUHp3s3OWz+GHslD49PVvZZfaFXqG/yTYvyjg+iT5M3wPn6ph9nE0tJDC+BjgAAAABJRU5ErkJggg=="
+						/>
+					</defs>
+					{/*<style>
+                        tspan { white-space:pre }
+                    </style>*/}
+					<use id="Capa 1" href="#img1" x="0" y="0" />
+				</svg>
+			</span>
+			View Contract
+		</a>
+	);
+};
+
+export default ViewContract;

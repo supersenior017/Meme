@@ -1,0 +1,37 @@
+.Container {
+	min-height: 170px;
+	background-image: linear-gradient(
+		to right,
+		#740000 0%,
+		#f05454 83.44%,
+		#740000 107.85%
+	);
+	padding: 30px 70px;
+	color: #ffffff;
+
+	position: relative;
+}
+
+.Content {
+	min-height: 140px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 999 !important;
+}
+
+.Fondo {
+	position: absolute;
+	width: 100%;
+	min-height: 100%;
+	top: 0;
+	left: 0;
+
+	background-image: url(../../../images/background_snow.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*background: url(Recurso 1espa.png);*/

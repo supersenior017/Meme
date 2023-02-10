@@ -1,0 +1,40 @@
+/* VIEW CONTRACT BUTTON */
+
+.ButtonView {
+	width: 68px;
+	height: 18px;
+	margin-top: -13px;
+	margin-bottom: 5px;
+
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 12px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0, 017em;
+	white-space: nowrap;
+
+	color: #868686;
+	transition: color 0.2s ease-in;
+}
+
+.ButtonView:hover {
+	color: #805eaa;
+	transition: color 0.2s ease-in;
+}
+
+.Icon_viewContract {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 15px;
+	height: 20px;
+}
+
+/*@media (min-width: 1441px) {
+	.icon_viewContract svg {
+		height: 14px !important;
+	}
+}*/

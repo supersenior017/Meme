@@ -1,0 +1,33 @@
+/* CONTAINER */
+.Container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background: linear-gradient(
+		125deg,
+		#000000 0%,
+		#002347 33%,
+		#211f49 66%,
+		#4d0c38 100%
+	);
+}
+
+/* BACKGROUND */
+
+.Background {
+	display: inline-block;
+	width: 100%;
+	min-height: 100vh;
+
+	margin: 0;
+	padding: 0;
+
+	background: linear-gradient(
+		180deg,
+		#000000 0%,
+		#004c9b 39.57%,
+		#5b55c8 63.72%,
+		#d2219a 89.41%
+	);
+}

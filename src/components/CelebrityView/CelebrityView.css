@@ -1,0 +1,283 @@
+/****************/
+/* MOBILE FIRST */
+/****************/
+
+/*Container*/
+.celebrity-container {
+	display: inline-block;
+	width: 100%;
+	min-height: calc(100vh - 121px);
+
+	padding: 35px;
+	text-align: center;
+
+	position: relative;
+}
+
+/************************************/
+
+/*Nav History section*/
+.celebrity-story {
+	display: inline-block;
+	width: 100%;
+	max-width: 1000px;
+	height: 50px;
+
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: -0.017em;
+	text-align: left;
+
+	margin-bottom: 40px;
+}
+
+.celebrity-story button {
+	color: #868686;
+	border: none;
+	background: none;
+}
+
+.celebrity-story button:hover {
+	color: #13cfff;
+}
+
+.celebrity-story p {
+	display: inline-block;
+	margin: 0px 6px 0px 6px;
+}
+
+.celebrity-story p:hover {
+	cursor: default;
+}
+
+/************************************/
+
+.celebrity-artist-data {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+	min-height: calc(100vh - 295px);
+	align-items: center;
+}
+
+/************************************/
+
+.celebrity-artist-info-container {
+	display: flex;
+	width: 100%;
+	max-width: 1000px;
+	height: 88px;
+
+	margin: 0px 0px 42px 0px;
+
+	justify-content: left;
+	align-items: center;
+}
+
+.celebrity-image {
+	display: inline-block;
+	width: 88px;
+	height: 88px;
+
+	margin-right: 11px;
+
+	border-radius: 9px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.celebrity-name {
+	display: inline-block;
+	text-align: left;
+}
+
+.celebrity-name h2 {
+	display: inline-block;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	margin-right: 10px;
+}
+
+.celebrity-name h3 {
+	display: inline-block;
+	color: #868686;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.celebrity-social {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	margin-right: 12px;
+
+	text-indent: -9999px;
+
+	color: #868686;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	padding-top: 4px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	border: none;
+	box-sizing: border-box;
+	border-radius: 6px;
+
+	transition-property: color, border;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in;
+}
+
+.social-twitter {
+	background-image: url(./assets/Twitter.png);
+}
+
+.social-instagram {
+	background-image: url(./assets/Instagram.png);
+}
+
+.social-youtube {
+	background-image: url(./assets/YouTube.png);
+}
+
+.social-tiktok {
+	background-image: url(./assets/Tiktok.png);
+}
+
+.social-telegram {
+	background-image: url(./assets/Telegram.png);
+}
+
+/************************************/
+
+/* CARDS */
+
+.celebrity-nft-container {
+	display: inline-block;
+	width: 100%;
+	max-width: 1026px;
+	min-height: calc(100vh - 440px);
+
+	text-align: center;
+}
+
+/*********************************************/
+
+.nft-banner-container {
+	min-height: 80px;
+	position: relative;
+	background-color: #805eaa;
+	padding: 30px 70px;
+	color: #ffffff;
+	z-index: 1;
+}
+
+/***************/
+/* TABLET MODE */
+/***************/
+
+/* TABLET */
+
+@media only screen and (min-width: 480px) and (max-width: 899px) {
+	.celebrity-artist-info-container {
+		margin: 0px 0px 42px 30px;
+	}
+
+	/* CARDS */
+	.celebrity-nft-container {
+		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+	/** MODALS **/
+	.celebrity-buy-modal {
+		width: calc(100% - 200px);
+		height: calc(100% - 51px);
+		padding: 50px;
+	}
+
+	.celebrity-modal-container {
+		padding: 30px;
+	}
+}
+
+/********/
+/* 	PC  */
+/********/
+
+/* PC SMALL */
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+	.celebrity-artist-info-container {
+		margin: 0px 0px 42px 30px;
+	}
+
+	/* CARDS */
+	.celebrity-nft-container {
+		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.celebrity-buy-modal {
+		width: calc(100% - max(15vw, 200px));
+		align-items: center;
+		justify-content: center;
+	}
+
+	/* SOCIAL */
+	.celebrity-social {
+		width: 73px;
+		height: 25px;
+		margin-right: 7px;
+		text-indent: 0px;
+		background-image: none;
+
+		border: 1px solid #868686;
+	}
+
+	.celebrity-social:hover {
+		color: white;
+
+		background-color: #805eaa;
+		border: 1px solid white;
+
+		transition-property: color, border;
+		transition-duration: 0.2s;
+		transition-timing-function: ease-in;
+	}
+}
+
+/* PC */
+
+@media only screen and (min-width: 1200px) {
+	.celebrity-artist-info-container {
+		margin: 0px 0px 42px 0px;
+	}
+
+	/* CARDS */
+	.celebrity-nft-container {
+		text-align: left;
+	}
+}
+
+/* width: calc(100% - max(15vw, 200px)); */

@@ -1,0 +1,456 @@
+/***** MODAL *****/
+
+.CelebrityBuyModal {
+	display: flex;
+	width: 100%;
+	height: calc(100% - 51px);
+	padding: 10px;
+
+	justify-content: center;
+	align-items: center;
+
+	position: fixed;
+
+	z-index: 5;
+}
+
+.Background {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	opacity: 0.8;
+
+	position: absolute;
+	z-index: -1;
+}
+
+.CelebrityModalContainerBorder {
+	display: flex;
+	width: 100%;
+	max-width: 700px;
+	min-height: 300px;
+
+	padding: 10px;
+	border-radius: 53px;
+	background-color: #805eaa;
+	/* background-image: linear-gradient(
+		to right,
+		rgb(255, 1, 126),
+		rgb(169, 1, 250),
+		rgb(3, 238, 254)
+	) */;
+}
+
+.CelebrityModalContainer {
+	display: inline-block;
+	width: 100%;
+	min-height: 300px;
+	padding: 10px;
+	border-radius: 43px;
+	overflow: hidden;
+
+	position: relative;
+
+	background-color: white;
+}
+
+.Cross {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+
+	padding: 0px;
+
+	position: absolute;
+	top: 20px;
+	right: 20px;
+
+	border: none;
+	background-color: white !important;
+
+	background-image: url(./assets/cross.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+
+	transition: transform 0.2s ease-in-out;
+}
+
+.Cross:hover {
+	transform: scale(0.9);
+	background-image: url(./assets/cross-hover.png);
+}
+
+/* Image */
+.CelebrityModalNftImage {
+	display: inline-block;
+	width: 162px;
+	height: 162px;
+	border-radius: 34px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	overflow: hidden;
+}
+
+/* Video */
+.BackgroundVideo {
+	display: inline-block;
+	width: 162px;
+	height: 162px;
+	border-radius: 34px;
+	object-fit: cover;
+
+	overflow: hidden;
+}
+
+/* Modal Name Container */
+.CelebrityModalNftContainer {
+	display: inline-block;
+	width: calc(100% - 162px);
+	padding-left: 10px;
+	vertical-align: top;
+}
+
+.CelebrityModalNftSubcontainerArtist {
+	display: flex;
+	flex-direction: column;
+	padding-top: 55px;
+}
+
+.CelebrityModalNftSubcontainerArtist h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
+	margin: 0px 0px 5px 0px;
+}
+
+.CelebrityModalNftSubcontainerArtist h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 14px;
+	color: #868686;
+
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
+	margin: 0px;
+}
+
+.CelebrityModalNftSubcontainerName {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+}
+
+.CelebrityModalNftSubcontainerName > h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
+	margin: 0px 0px 5px 0px;
+}
+
+.CelebrityModalNftSubcontainerName > h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 14px;
+	color: #868686;
+
+	margin: 0px;
+}
+
+.CelebrityModalNftContainerInfo {
+	display: inline-block;
+	width: 100%;
+
+	text-align: center;
+}
+
+.CelebrityModalNftContainerInfoPc {
+	display: none;
+}
+
+.CelebrityModalTimerStart {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 10px 0px 0px 0px;
+}
+
+.OwnText {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	margin: 10px 0px 0px 0px;
+	text-align: left;
+}
+
+.CelebrityModalPriceContainer {
+	display: flex;
+	justify-content: center;
+
+	margin: 10px 0px 10px 0px;
+}
+
+.CelebrityModalPriceContainer p {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 33px;
+	line-height: 40px;
+}
+
+.CelebrityModalPriceContainer .CelebrityModalBnb {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+
+	background-image: url(./assets/bnb.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.CelebrityModalPurchase {
+	width: 196px;
+	height: 46px;
+
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+
+	justify-content: center;
+	position: relative;
+
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 17px;
+
+	border-radius: 9px !important;
+	color: white;
+	background-color: #805eaa;
+	border: none;
+
+	transition: transform 0.2s ease-in-out;
+}
+
+.CelebrityModalDisable {
+	display: inline-block;
+	width: 196px;
+	height: 46px;
+
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+
+	position: relative;
+
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 17px;
+
+	border-radius: 9px !important;
+	color: rgba(134, 134, 134, 1);
+	border: rgba(134, 134, 134, 1) solid 5px;
+}
+
+.CelebrityModalDisable p {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	border-radius: 9px !important;
+
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 34px;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.CelebrityModalPurchase p {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	border-radius: 9px !important;
+
+	font-style: normal;
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 34px;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.CelebrityModalPurchase p::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 4px;
+	padding: 5px;
+	background: #805eaa;
+	-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+	-webkit-mask-composite: destination-out;
+	mask-composite: exclude;
+}
+
+.CelebrityModalPurchase p:hover {
+	background: #805eaa;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.CelebrityModalPurchase:hover {
+	transform: scale(1.1);
+	background: none;
+}
+
+.CelebrityModalTimerContainer {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0px 20px 0px;
+}
+
+.CelebrityModalTimer {
+	display: flex;
+	flex-direction: column;
+}
+
+.CelebrityModalNumber {
+	display: inline-block;
+	font-size: 50px !important;
+	line-height: 60px !important;
+
+	font-style: normal;
+	font-weight: 700;
+
+	margin: 0px 10px 0px 10px;
+
+	background-color: #805eaa;
+	/* background: linear-gradient(
+		to right,
+		#ad15fa 33.39%,
+		#3880ff 57.93%,
+		#12d0ff 89.98%
+	) */;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.CelebrityModalTime {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+/*********************************************/
+
+/***************/
+/* TABLET MODE */
+/***************/
+
+/* TABLET */
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+	/** MODALS **/
+	.CelebrityBuyModal {
+		width: calc(100% - 200px);
+		height: calc(100% - 51px);
+		padding: 50px;
+	}
+
+	.CelebrityModalContainer {
+		padding: 30px;
+	}
+}
+
+/*********************************************/
+
+/********/
+/* 	PC  */
+/********/
+
+/* PC */
+
+@media only screen and (min-width: 900px) {
+	.CelebrityBuyModal {
+		width: calc(100% - max(15vw, 200px));
+		align-items: center;
+		justify-content: center;
+	}
+
+	.CelebrityModalContainer {
+		padding: 30px;
+	}
+
+	/* Image */
+	.CelebrityModalNftImage {
+		width: 50%;
+		height: 100%;
+
+		border-radius: 34px;
+		overflow: hidden;
+	}
+
+	/* Video */
+	.BackgroundVideo {
+		width: 50%;
+		height: 100%;
+	}
+
+	.CelebrityModalNftContainer {
+		width: 50%;
+		padding: 10px 0px 0px 30px;
+	}
+
+	.CelebrityModalNftContainerInfo {
+		display: none;
+	}
+
+	.CelebrityModalNftContainerInfoPc {
+		display: inline-block;
+		width: 100%;
+
+		text-align: center;
+	}
+
+	.CelebrityModalNftSubcontainerArtist {
+		padding: 0px 0px 20px 0px;
+	}
+
+	.CelebrityModalNftSubcontainerName {
+		padding: 0px 0px 40px 0px;
+	}
+}
+
+/* width: calc(100% - max(15vw, 200px)); */
