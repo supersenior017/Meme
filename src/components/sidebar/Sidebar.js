@@ -126,44 +126,40 @@ function Sidebar(props) {
 					</nav>
 					<div className='Sidebar_bottom__3eeR3'>
 						<div className='social-grp'>
-							<a href='https://t.me/aiMemesArt' target='_blank' rel='noreferrer'>
+							<a href='t.me/AiMemesArt' target='_blank' rel='noreferrer'>
 								<div>
 									<img src="./assets/images/telegram.png" />
 								</div>
 							</a>
-							<a href='https://t.me/aiMemesArt' target='_blank' rel='noreferrer'>
+							<a href='https://twitter.com/AiMemes_art' target='_blank' rel='noreferrer'>
 								<div>
 									<img src="./assets/images/twitter.png" />
 								</div>
 							</a>
-							<a href='https://t.me/aiMemesArt' target='_blank' rel='noreferrer'>
+							<a href='https://bscscan.com/' target='_blank' rel='noreferrer'>
 								<div>
 									<img src="./assets/images/bscscan.png" />
 								</div>
 							</a>
-							<a href='https://t.me/aiMemesArt' target='_blank' rel='noreferrer'>
+							<a href='https://pancakeswap.finance/swap' target='_blank' rel='noreferrer'>
 								<div>
 									<img src="./assets/images/pancake.png" />
 								</div>
 							</a>
 						</div>
 						<div className='guides'>
-							<a href='https://t.me/aiMemesArt' target='_blank' rel='noreferrer'>
-								<div>
-									FAQs
-								</div>
-							</a>
-							<a href='https://t.me/aiMemesArt' target='_blank' rel='noreferrer'>
+	
+							<a href='mailto:Info@AiMemes.art' target='_blank' rel='noreferrer'>
 								<div>
 									Contact
 								</div>
 							</a>
-							<a href='https://t.me/aiMemesArt' target='_blank' rel='noreferrer'>
+							<a href='https://docs.aimemes.art/' target='_blank' rel='noreferrer'>
 								<div>
 									Whitepaper
 								</div>
 							</a>
-							<a href='https://t.me/aiMemesArt' target='_blank' rel='noreferrer'>
+							<a href='' target='_blank' rel='noreferrer'>
 								<div>
 									$AIMEME Token
 								</div>
