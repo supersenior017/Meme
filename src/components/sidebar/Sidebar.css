@@ -442,6 +442,10 @@ svg:not(:root) {
     justify-content: center;
 }
 
+.img-white-logo div img {
+    width: 20px;
+}
+
 .img-white-logo div p {
     margin: auto;
     margin-top: 2px;
